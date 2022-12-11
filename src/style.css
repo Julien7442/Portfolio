@@ -185,7 +185,7 @@ html {
 }
 
 .navbar-nav .nav-item a::after {
-  content: "";
+  content: '';
   position: relative;
   display: block;
   height: 5px;
@@ -245,6 +245,7 @@ html {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .home-header {
@@ -361,7 +362,7 @@ html {
 }
 
 .home-social-icons::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -670,7 +671,7 @@ html {
 }
 
 .resume .resume-item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
