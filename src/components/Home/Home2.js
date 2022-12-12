@@ -2,11 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import avatar from '../../Assets/avatar.png';
 import Tilt from 'react-parallax-tilt';
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from 'react-icons/ai';
+import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 function Home2() {
@@ -51,7 +47,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={avatar} className="img-fluid" alt="avatar" />
+              <img src={avatar} className="img-fluid aboutpng" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -72,19 +68,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="insert linkedin link here"
+                  href="https://www.linkedin.com/in/julien-conforto-59b621184/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -94,12 +81,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="instagram link"
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfqbprRHgWJLcTXdscmpKQxHlkGGsRssBLvcBrQcdPlnSLxnkVQHrbwcFRPvnpXsXjzQQq"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>

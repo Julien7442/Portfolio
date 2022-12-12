@@ -8,7 +8,7 @@ function Type() {
         strings: ['Web Developer', 'JS Developer', 'React Js Developer'],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 100,
       }}
     />
   );
