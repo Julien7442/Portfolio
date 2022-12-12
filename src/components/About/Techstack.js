@@ -8,6 +8,7 @@ import {
   DiMongodb,
   DiCss3,
   DiGit,
+  DiHtml5,
 } from 'react-icons/di';
 
 function Techstack() {
@@ -30,6 +31,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
       </Col>
     </Row>
   );

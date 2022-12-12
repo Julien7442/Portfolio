@@ -213,6 +213,10 @@ html {
   display: inline-block;
 }
 
+.aboutpng {
+  width: 13em;
+}
+
 @keyframes wave-animation {
   0% {
     transform: rotate(0deg);
