@@ -46,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="Piiquante"
               description="This project consists of developing an API for a hot sauce review site"
-              link="https://deployment-for-ethereum-project.vercel.app/"
+              link="https://github.com/Julien7442/Piiquante"
             />
           </Col>
 

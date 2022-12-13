@@ -214,7 +214,11 @@ html {
 }
 
 .aboutpng {
-  width: 13em;
+  width: 25em;
+}
+
+.avatarSize {
+  width: 20em;
 }
 
 @keyframes wave-animation {

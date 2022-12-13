@@ -47,7 +47,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={avatar} className="img-fluid aboutpng" alt="avatar" />
+              <img src={avatar} className="img-fluid avatarSize" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
