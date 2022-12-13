@@ -509,6 +509,7 @@ html {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
+  height: 100%;
 }
 
 .blog-img {

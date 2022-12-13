@@ -3,12 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 
-import insta from '../../Assets/Projects/insta.png';
-import blog from '../../Assets/Projects/blog.jpg';
-import ethSend from '../../Assets/Projects/ethSend.png';
-import socialcode from '../../Assets/Projects/socialcode.png';
-import vidCon from '../../Assets/Projects/vidCon.png';
-import emoDetct from '../../Assets/Projects/emoDetct.jpeg';
+import ohmyfood from '../../Assets/Projects/ohmyfood.jpg';
+import piiquante from '../../Assets/Projects/piiquante.jpg';
+import kasa from '../../Assets/Projects/kasa.jpg';
+import kanap from '../../Assets/Projects/kanap.jpg';
 
 function Projects() {
   return (
@@ -24,61 +22,41 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={insta}
+              imgPath={ohmyfood}
               isBlog={false}
-              title="tincidunt vitae semper quis lectus"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-              link="https://github.com"
+              title="Ohmyfood"
+              description="A restaurant web page where you can chose your menu and customize it"
+              link="https://github.com/Julien7442/ohmyfood"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blog}
+              imgPath={kasa}
               isBlog={false}
-              title="tincidunt vitae semper quis lectus"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-              link="https://github.com"
+              title="Kasa"
+              description="Website where you can look for apartments and book them"
+              link="https://github.com/Julien7442/Kasa"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ethSend}
+              imgPath={piiquante}
               isBlog={false}
-              title="tincidunt vitae semper quis lectus"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+              title="Piiquante"
+              description="This project consists of developing an API for a hot sauce review site"
               link="https://deployment-for-ethereum-project.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={socialcode}
+              imgPath={kanap}
               isBlog={false}
-              title="tincidunt vitae semper quis lectus"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={vidCon}
-              isBlog={false}
-              title="tincidunt vitae semper quis lectus"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-              link="https://mediacall.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emoDetct}
-              isBlog={false}
-              title="tincidunt vitae semper quis lectus"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-              link="https://github.com/google/mediapipe"
+              title="Kanap"
+              description="Kanap is a website that allows users to choose their couch, color and add it to a cart"
+              link="https://github.com/Julien7442/Kanap"
             />
           </Col>
         </Row>
