@@ -27,7 +27,6 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? 'no-scroll' : 'scroll'}>
         <Navbar />
-
         <ScrollToTop />
         <Routes>
           <Route path="/" exact element={<Home />} />
