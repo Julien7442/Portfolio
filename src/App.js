@@ -30,7 +30,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/home" exact element={<Home />} />
+          <Route path="/portfolio" exact element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
         </Routes>
