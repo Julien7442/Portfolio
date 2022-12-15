@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Julien7442.github.io/Portfolio",
-  "name": "portfolio",
+  "homepage": "https://Julien7442.github.io/home",
+  "name": "home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
