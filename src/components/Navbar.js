@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? 'sticky' : 'navbar'}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/home">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -54,7 +54,11 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="/home"
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineHome style={{ marginBottom: '2px' }} /> Home
               </Nav.Link>
             </Nav.Item>
@@ -84,7 +88,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Julien7442"
+                href="https://github.com/Julien7442/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
