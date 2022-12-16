@@ -5,7 +5,8 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Route, Routes } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import './style.css';
 import './App.css';
@@ -24,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
       <Preloader load={load} />
       <div className="App" id={load ? 'no-scroll' : 'scroll'}>
         <Navbar />
@@ -36,7 +37,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
