@@ -6,15 +6,13 @@ import logo from '../Assets/brand.png';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import { CgGitFork } from 'react-icons/cg';
-import { ImBlog } from 'react-icons/im';
+
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from 'react-icons/ai';
-
-import { CgFileDocument } from 'react-icons/cg';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -38,7 +36,7 @@ function NavBar() {
       className={navColour ? 'sticky' : 'navbar'}
     >
       <Container>
-        <Navbar.Brand href="/portfolio">
+        <Navbar.Brand href="/">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -54,11 +52,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/portfolio"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: '2px' }} /> Home
               </Nav.Link>
             </Nav.Item>

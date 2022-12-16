@@ -5,8 +5,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer';
-import { BrowserRouter as Route, Routes } from 'react-router-dom';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './style.css';
 import './App.css';
@@ -25,19 +24,19 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? 'no-scroll' : 'scroll'}>
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/portfolio" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
