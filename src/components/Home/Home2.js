@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import avatar from '../../Assets/avatar.png';
-import Tilt from 'react-parallax-tilt';
-import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn } from 'react-icons/fa';
+import { Container, Row, Col } from 'react-bootstrap'; // Importe des composants de react-bootstrap
+import avatar from '../../Assets/avatar.png'; // Importe l'image de l'avatar
+import Tilt from 'react-parallax-tilt'; // Importe react-parallax-tilt pour animer l'image de l'avatar
+import { AiFillGithub, AiOutlineMail } from 'react-icons/ai'; // Importe des icônes de react-icons
+import { FaLinkedinIn } from 'react-icons/fa'; // Importe une autre icône de react-icons
 
 function Home2() {
   return (

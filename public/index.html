@@ -3,47 +3,30 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Single Page Apps for GitHub Pages</title>
-    <meta
-      name="description"
-      content="Lightweight solution for deploying single page apps with GitHub Pages."
-    />
+    <title>Portfolio Julien Conforto</title>
+    <meta name="description" content="Portoflio Julien Conforto" />
 
+    <!-- Définit la couleur de fond de la page -->
     <style>
       html {
-        background-color: rgb(0, 120, 0);
+        background-color: rgb(2, 26, 2);
       }
     </style>
 
     <!-- favicon -->
-    <link rel="icon" type=”image/svg+xml”
-    href="/favicon/green-grid-144-168-192.svg">
-    <link
-      rel="alternate icon"
-      type="image/png"
-      href="/favicon/green-grid-144-168-192-512x512.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="/favicon/green-grid-144-168-192-180x180.png"
-    />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <!-- Utilise plusieurs formats de favicon différents -->
+    <link rel="icon" type=”image/svg+xml” href="./favicon.ico">
+    <link rel="alternate icon" type="image/png" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="./favicon.ico" />
+
     <meta name="theme-color" content="#000000" />
 
-    <!-- Start Single Page Apps for GitHub Pages -->
+    <!-- Ce script effectue une redirection vers une URL modifiée, en remplaçant l'URL d'origine avec le premier segment de chemin modifié -->
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
       (function (l) {
+        // Si le premier segment de chemin de l'URL d'origine est '/', remplace l'URL actuelle par une URL modifiée
         if (l.search[1] === '/') {
+          // Décode les segments de chemin de l'URL d'origine et les remplace dans l'URL modifiée
           var decoded = l.search
             .slice(1)
             .split('&')
@@ -51,6 +34,7 @@
               return s.replace(/~and~/g, '&');
             })
             .join('?');
+          // Remplace l'URL actuelle par l'URL modifiée
           window.history.replaceState(
             null,
             null,
@@ -59,11 +43,11 @@
         }
       })(window.location);
     </script>
-    <!-- End Single Page Apps for GitHub Pages -->
   </head>
   <body>
+    <!-- Élément racine de l'application -->
     <div id="root"></div>
-    <!-- single page app in bundle.js -->
+    <!-- Chargement de l'application en une seule page dans le fichier bundle.js -->
     <script src="/build/bundle.js"></script>
   </body>
 </html>
