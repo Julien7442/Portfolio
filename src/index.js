@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 // React.createRoot creates a root for a React tree and returns a container that can be used to update the tree
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +15,3 @@ root.render(
   </React.Fragment>
 );
 
-// The reportWebVitals function is a helper function for measuring web vitals (e.g. First Input Delay, Largest Contentful Paint)
-// It is typically called at the end of the main.js file to ensure that it is only called once
-reportWebVitals();

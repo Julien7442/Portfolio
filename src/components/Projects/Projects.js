@@ -27,8 +27,7 @@ function Projects() {
                 imgPath={ohmyfood}
                 isBlog={false}
                 title="Ohmyfood"
-                description="A restaurant web page where you can chose your menu and customize it"
-                link="https://github.com/Julien7442/ohmyfood"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis, massa ac aliquet laoreet, nunc nisi vulputate mi, vel imperdiet ipsum magna eu nibh. "
               />
             </Col>
 
@@ -37,8 +36,7 @@ function Projects() {
                 imgPath={kasa}
                 isBlog={false}
                 title="Kasa"
-                description="Website where you can look for apartments and book them"
-                link="https://github.com/Julien7442/Kasa"
+                description="Sed iaculis tincidunt convallis. Nam hendrerit felis eget mi porta scelerisque. Vivamus non neque a magna vehicula tristique nec commodo ligula."
               />
             </Col>
 
@@ -47,8 +45,7 @@ function Projects() {
                 imgPath={piiquante}
                 isBlog={false}
                 title="Piiquante"
-                description="This project consists of developing an API for a hot sauce review site"
-                link="https://github.com/Julien7442/Piiquante"
+                description="Donec id enim bibendum, convallis nunc nec, lacinia libero. Quisque sit amet nulla aliquet, consequat nulla a, feugiat libero."
               />
             </Col>
 
@@ -57,8 +54,7 @@ function Projects() {
                 imgPath={kanap}
                 isBlog={false}
                 title="Kanap"
-                description="Kanap is a website that allows users to choose their couch, color and add it to a cart"
-                link="https://github.com/Julien7442/Kanap"
+                description="Quisque feugiat nulla eu turpis laoreet, quis interdum nisi mattis. Curabitur ut feugiat dui, dignissim imperdiet ligula. Vestibulum et orci non augue consectetur mattis."
               />
             </Col>
           </Row>
